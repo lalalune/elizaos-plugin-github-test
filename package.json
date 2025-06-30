@@ -1,0 +1,23 @@
+{
+  "name": "@elizaos/plugin-github-test",
+  "version": "1.0.0",
+  "description": "Test plugin for GitHub push validation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "dev": "bun test --watch"
+  },
+  "dependencies": {
+    "@elizaos/core": "latest",
+    "axios": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "agentConfig": {
+    "pluginType": "elizaos:plugin:1.0.0"
+  }
+}
